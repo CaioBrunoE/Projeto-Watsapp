@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    height: 100vh;
+    display: flex;
+  }
+
+ .barra-lateral{
+    flex: 0;
+    flex-basis: 30%;
+  }
+    
+
+.img00{
+  margin-top: 3px;
+  margin-bottom: 5px;
+  display:inline;
+  margin-left: 5px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 30px;
+
+}
+
+.img01{
+  margin-top: 3px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 30px;
+  flex-basis: 10%;
+}
+
+.space{
+  display: flex;
+  justify-content: space-between; 
+  background: #edeef0;
+ 
+}
+.space02{
+  display: flex;
+  justify-content: space-around; 
+  background:  #9cdefb;
+}
+
+
+.space03 {
+  display: flex;
+  justify-content: space-between; 
+  background: #edeef0;
+}
+
+.icons{
+ margin-top: 15px;
+font-size: 23px;
+margin-right: 20px;
+opacity: 0.5;
+}
+
+#icon04{
+  margin-left: 15px;
+  
+
+}
+#icon05{
+  margin-left: 15px;
+
+
+}
+
+#icon01{ 
+  font-size: 30px;
+  border-radius: 60px;
+  padding: 12px 10px ;
+  margin-top: 5px;
+  background-color:white;
+  color:  #9cdefb;
+
+}
+#icon00{
+  opacity: 0.3;
+}
+#icon08{
+  color:  #9cdefb;
+
+}
+
+li{
+  border-bottom: 1px solid #edeef0;
+  
+}
+
+.tamanho{
+  height: 65px;
+  
+}
+.tamanho02{
+  height: 35px;
+  padding: 5px;
+
+}
+.tamanho03{
+  height: 60px;
+  background: white;
+  
+}
+.tamanho04{
+  height: 65px;
+  background:  #edeef0;
+  box-shadow: 3px 3px 3px gray;
+
+}
+
+.ativar{
+  display: inline-block;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+input[ type="search" ]{
+   
+  border: none;
+  outline: none;
+
+}
+.pesquisa{
+  width: 600px;  
+  padding: 5px 100px 5px 10px   ;
+  border: 1px solid #edeef0 ;
+  border-radius: 20px;
+  opacity: 0.5;
+  
+}
+input{
+ width: 250px;
+ opacity: 0.5;
+}
+
+.hs{
+  margin-left: -205px;
+  opacity: 0.5;
+  
+}
+
+.horas{
+  font-size: 10px;
+  margin-right: -560px;
+  opacity: 0.5;
+}
+.msg02{
+  font-size: 11px;
+  margin-right: -20px;
+  width: 120px;
+  height: 20px;
+  align-self: flex-end;
+  margin-bottom: 15px;
+  opacity: 0.7;
+  
+}
+.msg{
+
+  align-self: flex-end;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  background: #1ebe6e;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top:  2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+
+}
+.displayli{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.area02{
+  flex-basis: 80%;
+  border: 1px solid#edeef0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.centro{
+    background: linear-gradient(rgba(248, 245, 245, 0.5), rgba(248, 245, 245, 0.5)), url(/image/background_whats.png);
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.tetxcorp01{
+  border: 1px solid rgb(209, 206, 206);
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: #def7c6;
+  width:250px;
+  height: 20px;
+  border-radius: 10px 0px 10px 10px;
+  align-self: flex-end;
+  box-shadow: 5px 5px 5px gray;
+
+}
+.tetxcorp{
+  border: 1px solid rgb(209, 206, 206);
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+  width: 250px;
+  height: 20px;
+  border-radius: 0px 10px 10px 10px;
+  align-self: center;
+  padding-left: 5px;
+  box-shadow: 5px 5px 5px gray;
+  
+ 
+}
+
+
+
+.img04{
+  margin-right: -670px;
+}
+.hs00{ 
+  font-size: 20px;
+  margin-top: 15px;
+  padding-left: 10px;
+  
+  
+}
+.mensagem{
+  
+  width: 360px;  
+  padding: 10px 5px 10px 15px   ;
+  border: 1px solid black ;
+  border-radius: 20px;
+}
+.alin{
+  margin-top: 20px;
+}
+.espaçoent{
+ 
+  width: 810px;
+}
+input[ type="text" ]{
+   
+  border: none;
+  outline: none;
+
+}
+#icon03{
+  font-size: 20px;
+   margin-left: 10px;
+   margin-right: 5px;
+}
+#icon07{
+  font-size: 15px;
+  margin-top: 25px;
+
+
+}
+#icon10{
+  align-self: flex-end;
+  color:  #9cdefb;
+  font-size: 12px;
+
+}
+#icon09{
+  align-self: flex-end;
+  font-size: 12px;
+  opacity: 0.5;
+
+
+
+}
