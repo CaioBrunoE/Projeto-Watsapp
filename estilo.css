@@ -121,6 +121,10 @@ li{
   box-shadow: 3px 3px 3px gray;
 
 }
+.tamanho04:hover{
+  background-color: #edeef0;
+
+}
 
 
 
@@ -281,8 +285,16 @@ input[ type="text" ]{
   font-size: 15px;
   margin-top: 25px;
 
-
 }
+
+
+#icon07:hover {
+  color: aqua;
+}
+
+
+
+
 #icon10{
   align-self: flex-end;
   color:  #9cdefb;
@@ -295,5 +307,8 @@ input[ type="text" ]{
   opacity: 0.5;
 
 
-
+}
+span{
+  margin-top: 3px;
+  font-size: 10px;
 }
