@@ -109,12 +109,20 @@ li{
   background: white;
   
 }
+
+.tamanho03:hover{
+  background-color: #edeef0;
+
+}
+
 .tamanho04{
   height: 65px;
   background:  #edeef0;
   box-shadow: 3px 3px 3px gray;
 
 }
+
+
 
 .ativar{
   display: inline-block;
@@ -246,7 +254,6 @@ input{
   
 }
 .mensagem{
-  
   width: 360px;  
   padding: 10px 5px 10px 15px   ;
   border: 1px solid black ;
